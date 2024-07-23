@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./styles.css"
 const Header = () => {
     return (
-        <div>Test Github</div>
+        <div className='header'>Test Github</div>
     )
 }
 
