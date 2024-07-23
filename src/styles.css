@@ -1,5 +1,9 @@
 #root {
     display: flex;
     flex-direction: row;
-    GAP: 10PX;
+    width: 100%;
+}
+
+.full-screen {
+    width: 100%;
 }

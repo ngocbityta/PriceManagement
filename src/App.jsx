@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Header from './component/Header';
 import Card from './page/main/component/Card';
-
-import Main from "./page/main/Main.jsx"
-
+import Homepage from "./page/main/Homepage.jsx"
+import "./styles.css"
 const App = () => {
 
   return (
-    <div>
+    <div className='full-screen'>
       <Header />
-      <Main />
+      <Homepage />
     </div>
   )
 }
