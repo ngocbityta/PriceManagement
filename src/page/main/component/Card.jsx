@@ -1,12 +1,11 @@
 import React from 'react';
-
+import "./styles.css"
 const Card = ({ product }) => {
-    const { price, name, description } = product
+    const { name, picture } = product
     return (
         <div className="card">
-            <h2>{name}</h2>
-            <p><strong>Price:</strong> ${price}</p>
-            <p>{description}</p>
+            <img className="picture" src={picture} />
+            <h4>{name}</h4>
         </div>
     );
 };

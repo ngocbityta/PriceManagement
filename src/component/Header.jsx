@@ -15,14 +15,14 @@ const Header = () => {
                 </div>
             </div>
             <div className='titlebar selection'>
-                <a className='category'>Apple</a>
-                <a className='category'>Samsung</a>
-                <a className='category'>Xiaomi</a>
-                <a className='category'>Oppo</a>
-                <a className='category'>Blackberry</a>
+                <a className='category'>Home</a>
+                <a href='#Apple' className='category'>Apple</a>
+                <a href='#Samsung' className='category'>Samsung</a>
+                <a href='#Xiaomi' className='category'>Xiaomi</a>
+                <a href='#Oppo' className='category'>Oppo</a>
+                <a href='#Huawei' className='category'>Huawei</a>
             </div>
         </header>
     )
 }
-
 export default Header

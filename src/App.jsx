@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Header from './component/Header';
-import Card from './page/main/component/Card';
-import Homepage from "./page/main/Homepage.jsx"
+import Homepage from "./page/main/homepage/Homepage.jsx"
 import "./styles.css"
 const App = () => {
 
