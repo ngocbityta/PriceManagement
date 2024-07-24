@@ -83,14 +83,21 @@ body {
 }
 
 .sign-log {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .sign-log-button {
     cursor: pointer;
     color: white;
-    margin: 5px 3px;
+    margin: 3px;
     padding: 4px;
     border: rgb(76, 71, 71) 1px solid;
     border-radius: 15%;
+}
+
+.sign-log-button:hover {
+    background-color: white;
+    color: black;
 }
