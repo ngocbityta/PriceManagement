@@ -14,5 +14,5 @@ const App = () => {
 
 export default App
 // STATE EFFECT -> QUA -> DUNG DU LIEU
-// COMPONENNT -> PROP 
+// COMPONENNT -> PROP
 // context 
