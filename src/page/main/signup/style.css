@@ -8,22 +8,26 @@ html {
 }
 
 #wrapper {
+    width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
 }
 
 #title {
+    display: flex;
     padding: 20px;
     font-size: 32px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
 
 .signup-form {
-    width: 300px;
+    width: auto;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .signup-form h2 {
@@ -32,7 +36,7 @@ html {
 }
 
 .signup-form input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -40,6 +44,8 @@ html {
 }
 
 .signup-form button {
+    margin-left: 50%;
+    transform: translate(-50%);
     width: 35%;
     padding: 10px;
     background-color: #1074f7;
@@ -71,9 +77,6 @@ html {
     color: rgb(170, 131, 3);
 }
 
-#create-new-account {
-    padding-left: 20px;
-}
 
 #create-new-account::before {
     content: "";
@@ -83,12 +86,26 @@ html {
     background-color: rgb(253, 194, 0);
 }
 
+#create-new-account h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#create-new-account #login-button {
+    display: flex;
+    justify-content: center;
+}
+
 #create-new-account button {
     background-color: rgb(108, 179, 2);
     color: white;
     border: none;
     padding: 12px;
     border-radius: 5px;
+    /* margin-left: 50%;
+    transform: translate(-50%); */
+    width: 35%;
+    font-size: 16px;
 }
 
 #create-new-account button:hover {
@@ -99,7 +116,7 @@ html {
     border-radius: 5px;
 }
 
-#signup-with-third-party a{
+#signup-with-third-party a {
     width: auto;
     height: 32px;
     display: inline-block;
@@ -109,23 +126,25 @@ html {
 }
 
 #signup-with-third-party {
-    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 48px;
-    width: 100%;
+    width: auto;
 }
 
 #signup-with-third-party .google-image {
     display: table-cell;
     vertical-align: middle;
-    width: 32px;
-    height: 32px;
-    background-image: url('https://www.pricebefore.com/static/pb/images/icon-amazon.svg');
+    width: 28px;
+    height: 28px;
+    background-image: url('https://www.pricebefore.com/static/pb/images/icon-google.svg');
     background-size: cover;
 }
 
 #signup-with-third-party .signup-text {
     display: table-cell;
-    
+
     color: black;
     font-size: 18px;
     vertical-align: middle;

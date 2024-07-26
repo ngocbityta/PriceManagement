@@ -31,7 +31,9 @@ function Login() {
 
             <div id="create-new-account">
                 <h3>New to PriceTrack?</h3>
-                <button type="button" href="#">Create New Account</button>
+                <div id="signup-button">
+                    <button type="button" href="#">Create New Account</button>
+                </div>
             </div>
         </div>
 
