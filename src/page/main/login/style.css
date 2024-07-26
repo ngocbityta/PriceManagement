@@ -1,12 +1,29 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .login-form {
     width: 300px;
     margin: 0 auto;
     padding: 30px;
 }
+
 .login-form h2 {
     margin-bottom: 20px;
     text-align: center;
 }
+
 .login-form input {
     width: 100%;
     padding: 10px;
@@ -14,6 +31,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 .login-form button {
     width: 35%;
     padding: 10px;
@@ -23,6 +41,7 @@
     color: white;
     font-size: 16px;
 }
+
 .login-form button:hover {
     background-color: #4cae4c;
 }
@@ -35,12 +54,13 @@
     height: 48px;
     align-content: center;
 }
-#forgot-password a{
+
+#forgot-password a {
     color: black;
     text-decoration: none;
 }
 
-#forgot-password a:hover{   
+#forgot-password a:hover {
     color: rgb(170, 131, 3);
 }
 
@@ -67,4 +87,3 @@
     padding: 12px;
     border-radius: 5px;
 }
-
