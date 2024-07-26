@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import Header from './component/Header';
-import Card from './page/main/component/Card';
+import React from 'react';
 
-import Login from './page/main/login/Login.jsx'
+import Signup from './page/main/signup/signup.jsx';
+
 
 // import Main from "./page/main/Main.jsx"
 
@@ -12,7 +11,8 @@ const App = () => {
     <div>
       {/* <Header /> */}
       {/* <Main /> */}
-      <Login></Login>
+      {/* <Login></Login> */}
+      <Signup></Signup>
     </div>
   )
 }
