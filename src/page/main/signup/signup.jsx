@@ -1,19 +1,21 @@
 import React from 'react';
 import "./style.css";
 
-function Login() {
+function Signup() {
     return (
         <div id="wrapper">
-            <div id="title">Log In</div>
-            <div id="login-with-third-party">
-                <a href="#" title='Login with Google'>
+            <div id="title">Sign Up</div>
+            <div id="signup-with-third-party">
+                <a href="#" title='signup with Google'>
                     <span class="google-image"></span>
-                    <span class="login-text">Login with Google</span>
+                    <span class="signup-text">Signup with Google</span>
                 </a>
             </div>
-            <div class="login-form">
-                <h2>Login with Email</h2>
+            <div class="signup-form">
+                <h2>Signup with Email</h2>
                 <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required/>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required></input>
 
@@ -22,20 +24,17 @@ function Login() {
                     <div id='space'></div>
 
 
-                    <button type="submit">Log In</button>
+                    <button type="submit">Sign up</button>
                 </form>
-                <div id="forgot-password">
-                    <a href="#" >Forgot Password?</a>
-                </div>
             </div>
 
             <div id="create-new-account">
-                <h3>New to PriceTrack?</h3>
-                <button type="button" href="#">Create New Account</button>
+                <h3>Already have an account?</h3>
+                <button type="button" href="#">Log In</button>
             </div>
         </div>
 
     )
 }
 
-export default Login;
+export default Signup;

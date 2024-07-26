@@ -1,13 +1,18 @@
-import React, { useEffect, useState } from 'react'
-import Header from './component/Header';
-import Homepage from "./page/main/homepage/Homepage.jsx"
-import "./styles.css"
+import React from 'react';
+import Login from './page/main/login/Login.jsx'
+import Signup from './page/main/signup/signup.jsx';
+
+
+// import Main from "./page/main/Main.jsx"
+
 const App = () => {
 
   return (
-    <div className='full-screen'>
-      <Header />
-      <Homepage />
+    <div>
+      {/* <Header /> */}
+      {/* <Main /> */}
+      <Login></Login>
+      {/* <Signup></Signup> */}
     </div>
   )
 }
