@@ -1,17 +1,16 @@
 import React from 'react';
 
-// import Signup from './page/main/signup/signup.jsx';
+import Signup from './page/main/signup/signup.jsx';
 import Login from './page/main/login/Login.jsx';
-
-
-// import Main from "./page/main/Main.jsx"
+import Header from './component/Header.jsx';
+import Homepage from './page/main/homepage/Homepage.jsx';
 
 const App = () => {
 
   return (
     <div>
       {/* <Header /> */}
-      {/* <Main /> */}
+      {/* <Homepage /> */}
       <Login></Login>
       {/* <Signup></Signup> */}
     </div>
