@@ -7,17 +7,17 @@ function Login() {
             <div id="title">Log In</div>
             <div id="login-with-third-party">
                 <a href="#" title='Login with Google'>
-                    <span class="google-image"></span>
-                    <span class="login-text">Login with Google</span>
+                    <span className="google-image"></span>
+                    <span className="login-text">Login with Google</span>
                 </a>
             </div>
-            <div class="login-form">
+            <div className="login-form">
                 <h2>Login with Email</h2>
                 <form action="#" method="post">
-                    <label for="email">Email:</label>
+                    <label htmlFor="email">Email:</label>
                     <input type="email" id="email" name="email" required></input>
 
-                    <label for="password">Password:</label>
+                    <label htmlFor="password">Password:</label>
                     <input type="password" id="password" name="password" required></input>
                     <div id='space'></div>
 
