@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.scss";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -31,8 +32,8 @@ const Login = () => {
 
             <div id="create-new-account">
                 <h3>New to PriceTrack?</h3>
-                <div id="signup-button">
-                    <button type="button" href="#">Create New Account</button>
+                <div>
+                    <Link to="/signup" id="signup-button"><button type="button" href="#">Create New Account</button></Link>
                 </div>
             </div>
         </div>

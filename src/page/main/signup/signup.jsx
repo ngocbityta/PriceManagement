@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { faCheck, faTimes, faInfoCircle, faC } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import "./style.scss";
 
 const USER_REGEX = /^[a-zA-Z][a-zA-Z0-9-_]{3,23}$/;
@@ -144,8 +145,8 @@ const Signup = () => {
 
             <div id="create-new-account">
                 <h3>Already have an account?</h3>
-                <div id="login-button">
-                    <button type="button" href="/login">Log In</button>
+                <div>
+                    <Link to="/login" id="login-button"><button type="button">Log In</button></Link>
                 </div>
 
             </div>

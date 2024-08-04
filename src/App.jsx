@@ -12,8 +12,7 @@ const App = () => {
       <Route path="/" element={
         <div>
           <Header />
-          {/* <Homepage /> */}
-          <ListProduct productName="Samsung Phones" />
+          <Homepage />
         </div>
       } />
       <Route path="/login" element={
@@ -28,7 +27,14 @@ const App = () => {
           <Signup />
         </div>
       } />
+      <Route path="/list-product" element={
+        <div>
+          <Header />
+          <ListProduct productName="Samsung Phones" />
+        </div>
+      } />
     </Routes>
+
   )
 }
 

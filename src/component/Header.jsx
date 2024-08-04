@@ -23,11 +23,11 @@ const Header = () => {
             </div>
             <div className='titlebar selection'>
                 <Link to="/" className='category' onClick={(e) => { e.preventDefault; scrollToPosition(0) }}>Home</Link>
-                <a href='/#Apple' className='category'>Apple</a>
-                <a href='/#Samsung' className='category'>Samsung</a>
-                <a href='/#Xiaomi' className='category'>Xiaomi</a>
-                <a href='/#Oppo' className='category'>Oppo</a>
-                <a href='/#Huawei' className='category'>Huawei</a>
+                <Link to='/list-product' className='category'>Apple</Link>
+                <Link to='/list-product' className='category'>Samsung</Link>
+                <Link to='/list-product' className='category'>Xiaomi</Link>
+                <Link to='/list-product' className='category'>Oppo</Link>
+                <Link to='/list-product' className='category'>Huawei</Link>
             </div>
         </header>
     )
