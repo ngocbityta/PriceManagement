@@ -4,6 +4,7 @@ import Signup from './page/main/signup/signup.jsx';
 import Login from './page/main/login/Login.jsx';
 import Header from './component/Header.jsx';
 import Homepage from './page/main/homepage/Homepage.jsx';
+import ListProduct from './page/listProduct/ListProduct.jsx';
 const App = () => {
 
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Route path="/" element={
         <div>
           <Header />
-          <Homepage />
+          {/* <Homepage /> */}
+          <ListProduct productName="Samsung Phones" />
         </div>
       } />
       <Route path="/login" element={
