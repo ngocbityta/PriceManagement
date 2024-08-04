@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles.css"
+import "./styles.scss"
 import ProductList from '../component/ProductList'
 import Line from '../component/Line'
 

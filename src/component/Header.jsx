@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles.css"
+import "./styles.scss"
 import { Link } from "react-router-dom";
 function scrollToPosition(x) {
     window.scrollTo({
@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className='titlebar'>
-                <img src='https://www.pricetrack.eu/static/images/desktop-notification@2x.png' alt="Logo Picture" className="logo"></img>
+                <Link to="/" className="logo"><img src='https://www.pricetrack.eu/static/images/desktop-notification@2x.png' alt="Logo Picture" className="logo"></img></Link>
                 <div className='search-bar'>
                     <input type="text" placeholder='Search your item here'></input>
                     <button type="submit">Search</button>

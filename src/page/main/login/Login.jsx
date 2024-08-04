@@ -1,7 +1,7 @@
 import React from 'react';
-import "./style.css";
+import "./style.scss";
 
-function Login() {
+const Login = () => {
     return (
         <div id="wrapper">
             <div id="title">Log In</div>

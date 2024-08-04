@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import "./styles.css"
+import "./styles.scss"
 import Line from './Line'
 const ProductList = ({ data }) => {
     return (
